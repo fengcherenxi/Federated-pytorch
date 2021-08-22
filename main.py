@@ -17,7 +17,7 @@ if __name__ == '__main__':
 	args = parser.parse_args()
 	
 
-	with open('chapter03_Python_image_classification/utils/conf.json', 'r') as f:
+	with open('utils/conf.json', 'r') as f:
 		conf = json.load(f)	
 	
 	
